@@ -13,7 +13,7 @@ export class AppComponent {
   ) {
 
   }
-  title = 'dyn-app';
+  title = 'dyn-app-authnetication';
   call() {
     this.http.get('asda').subscribe(() => {})
   }
